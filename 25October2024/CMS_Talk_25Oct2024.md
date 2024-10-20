@@ -1,3 +1,5 @@
+![f35LighningII](https://github.com/valeriupredoi/CMS_Talks/blob/479d13452afb0020d3e5253acffbc57d57400547/images/f35.jpg)
+
 ## F-35 Lightning II Computing
 
 ### Hardware and Software
