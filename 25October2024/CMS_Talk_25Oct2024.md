@@ -16,9 +16,10 @@ Beyond HOTAS (Hands On Throttle And on Stick: put all necessary buttons on throt
 
 ### Hardware and Software
 
-- Integrated Core Processor ([ICP](https://www.l3harris.com/all-capabilities/high-performance-integrated-core-processor-icp)):
+- Integrated Core Processor ([F35 ICP](https://www.l3harris.com/all-capabilities/high-performance-integrated-core-processor-icp)) and [civilian Q-SYS](https://www.audiologic.co.uk/partners-area/products/q-sys-integrated-core-processor):
   - pretty low compute power: 2900 DMIPS approx 2.3GHz (factor of 1.25), 1MB L2 Cache, 512MB DRAM, 256MB Flash
-  - OS is key: **RTOS (Real Time Operating System, Green Hills Software Integrity DO-178B)**
+  - the main job is to manage integrated CPUs or full blown compute nodes, with **real-time** optimization, and seamless integration with videodisplaying
+  - OS is key: **RTOS or Real Time Operating System** (F-35 uses Green Hills Software Integrity DO-178B, absolutely not open source)
 - the ICP is designed to handle priority-ranked parallelism; from Lockheed-Martin:
   """
   Integrated Core Processor (ICP) is one of the world’s smallest deployed liquid cooled, airborne super computer.
