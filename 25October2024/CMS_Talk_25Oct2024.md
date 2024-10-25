@@ -2,6 +2,18 @@
 
 ## F-35 Lightning II Computing
 
+### Flying and Combat system
+
+Beyond HOTAS (Hands On Throttle And on Stick: put all necessary buttons on throttle lever and pilot side stick):
+
+- massive amount of sensors, each feeding data to central computers
+![sensors](https://github.com/valeriupredoi/CMS_Talks/blob/ccc589499da3f4648a0c5e406cf9c8ec9df78e7d/images/sensorrsF35.jpeg)
+- computer needs to take decisions for: flying (fly-by-wire, fuel consumption etc), navigation, combat
+- decisions are fed to the pilot in "as **real time** as possible"
+- no time to fiddle with buttons, levers, and other mechanical devices, like in the past
+- instead of HOTAS: massive LCD screens with tons of data, including a full 360deg view **through** the airframe
+![360view](https://github.com/valeriupredoi/CMS_Talks/blob/ccc589499da3f4648a0c5e406cf9c8ec9df78e7d/images/throughF35.jpg)
+
 ### Hardware and Software
 
 - Integrated Core Processor ([ICP](https://www.l3harris.com/all-capabilities/high-performance-integrated-core-processor-icp)):
